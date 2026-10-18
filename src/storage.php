@@ -72,5 +72,3 @@ function normalizeUsername(string $username): string
     return strtolower(trim($username));
 }
 
-
-var_dump(finduser(USERS_FILE, "CHE"));
